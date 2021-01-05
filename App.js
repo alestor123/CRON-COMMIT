@@ -5,7 +5,6 @@ module.exports = (message,cron) => {
     ncron.schedule(cron, ()=> {
         exec(`git add . && git commit -m ${message||' commit message '}`, (err) => {
             if(err) throw err
-            else console.log(`Commited ${message|| ' commit message '}`)
             })
       });
 }
