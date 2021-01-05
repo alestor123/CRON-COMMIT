@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alestor123/CRON-COMMIT/issues"
   },
-  "homepage": "https://github.com/alestor123/CRON-COMMIT#readme"
+  "homepage": "https://github.com/alestor123/CRON-COMMIT#readme",
+  "dependencies": {
+    "node-cron": "^2.0.3"
+  }
 }
