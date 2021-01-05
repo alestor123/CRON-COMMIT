@@ -1,3 +1,3 @@
 var commit = require('./App');
 
-commit('cli','1 * * * *')
+commit('cli','*/1 * * * *')
