@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/alestor123/CRON-COMMIT#readme",
   "dependencies": {
+    "minimist": "^1.2.5",
     "node-cron": "^2.0.3"
   }
 }
