@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple code for making commit with cron timing ",
   "main": "App.js",
+  "bin": {
+    "cron-commit": "cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
